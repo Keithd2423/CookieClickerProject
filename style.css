@@ -1,15 +1,12 @@
-
-#game-menu-screen{
+#game-main-menu {
     display: flex;
-    flex-direction: column;
-    background-image: linear-gradient();
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     margin: auto;
-    font-size: 70px;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
     color: rgb(0, 0, 0);
+    height: 5vh;
 
 }
-
-#game-main-screen
-
-
-#game-update-screen
