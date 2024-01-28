@@ -1,12 +1,29 @@
 #game-main-menu {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin: auto;
-    font-size: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 65px;
     font-family: 'Courier New', Courier, monospace;
     color: rgb(0, 0, 0);
-    height: 5vh;
+    background-color: red;
+}
+
+
+
+#startButton{
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    line-height: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(60%, -50%);
+    border-radius: 50%;
+    background-color: rgb(202, 162, 32);
 
 }
