@@ -6,9 +6,11 @@
     font-size: 65px;
     font-family: 'Courier New', Courier, monospace;
     color: rgb(0, 0, 0);
-    background-color: red;
 }
 
+body {
+    background-color: rgba(144, 67, 207, 0.452);
+}
 
 
 #startButton{
@@ -22,8 +24,8 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(60%, -50%);
+    transform: translate(65%, -50%);
     border-radius: 50%;
-    background-color: rgb(202, 162, 32);
+    background-color: rgba(32, 140, 202, 0.61);
 
 }
