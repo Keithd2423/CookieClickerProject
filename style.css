@@ -7,12 +7,9 @@
     font-family: 'Courier New', Courier, monospace;
     color: rgb(0, 0, 0);
 }
-
 body {
     background-color: rgba(144, 67, 207, 0.452);
 }
-
-
 #startButton{
     font-size: 40px;
     font-family: 'Courier New', Courier, monospace;
@@ -27,5 +24,69 @@ body {
     transform: translate(65%, -50%);
     border-radius: 50%;
     background-color: rgba(32, 140, 202, 0.61);
-
 }
+
+#returnButton {
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    width: 325px;
+    height: 400px;
+    text-align: center;
+    line-height: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-310%, -120%);
+    border-radius: 25%;
+}
+
+#upgradeButton {
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    width: 325px;
+    height: 400px;
+    text-align: center;
+    line-height: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-310%, -15%);
+    border-radius: 25%;
+}
+
+#muteButton {
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    width: 325px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-310%,360%);
+    border-radius: 25%;
+}
+
+
+#cookieButton{
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    line-height: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(65%, -50%);
+    border-radius: 50%;
+    background-color: rgba(202, 199, 32, 0.61);
+    background-image: url('path_to_your_image.jpg');
+    width: 100px; /* adjust as needed */
+    height: 100px; /* adjust as needed */
+    border: none; /* remove default button styling */
