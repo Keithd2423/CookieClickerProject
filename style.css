@@ -1,4 +1,15 @@
-#body{
+
+#game-main-menu{
+    display: flex;
+    justify-content: center;
     text-align: center;
+    flex-direction: column;
+}
+
+#startButton{
+    height: 200px;
+    width: 100px;
+    flex-direction: column;
+    justify-content: center;
 }
 
